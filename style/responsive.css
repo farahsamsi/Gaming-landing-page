@@ -1,11 +1,46 @@
 @media screen and (max-width:768px) {
-    nav, .nav-items{
+
+    nav,
+    .nav-items {
         flex-direction: column;
     }
-    .nav-title{
+
+    .nav-title {
         margin-bottom: 3rem;
     }
+
+    .banner-text h1 {
+        font-size: 5rem;
+    }
+
+    .banner-text h2 {
+        font-size: 3rem;
+    }
 }
+
 @media screen and (max-width:576px) {
-    
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .banner-text {
+        padding: 8rem 0 8.5rem 0;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .banner-text h1 {
+        font-size: 4rem;
+    }
+
+    .banner-text h2 {
+        font-size: 2rem;
+    }
+
+    .primary-btn,
+    .secondary-btn{
+        padding: 1rem;
+    }
 }

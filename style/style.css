@@ -1,24 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
 }
 
-section{
+section {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 .3rem 0 .3rem;
 }
-.img-container{
+
+.img-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-img{
+
+img {
     width: 100%;
+}
+
+.primary-btn,
+.secondary-btn {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border-radius: 48px;
+    background-color: rgb(255, 66, 165);
+    border: none;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    background-color: rgb(78, 197, 247);
+}
+
+.text-gray {
+    color: rgb(83, 76, 100);
 }
 
 
@@ -28,7 +50,8 @@ img{
     display: flex;
     gap: 1.25rem;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,27 +59,84 @@ nav{
 }
 
 .nav-items,
-.contact-icons{
+.contact-icons {
     display: flex;
     gap: 2rem;
     align-items: center;
 }
-.contact-icons{
+
+.contact-icons {
     border-radius: 8px;
     background-color: rgba(11, 2, 35, 0.1);
     padding: 1rem 1.5rem;
 }
 
-.nav-title h2{
+.nav-title h2 {
     font-weight: 700;
     font-size: 45px;
 }
-.nav-items p, a{
+
+.nav-items p,
+a {
     color: rgb(60, 53, 79);
     font-size: 1.15rem;
     font-weight: 500;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /* navbar related styles ends */
+
+
+/* banner related styles starts */
+.banner-text h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    margin-bottom: 1.5rem;
+}
+
+.banner-text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(11, 2, 35);
+}
+
+.banner-para {
+    display: flex;
+    gap: .75rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    margin-top: 3rem;
+}
+
+.banner-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 3.5rem;
+}
+
+.only-for-bg {
+    background-image: url(../images/Group\ 14.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/* banner related styles ends */
