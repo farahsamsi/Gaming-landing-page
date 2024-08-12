@@ -2,5 +2,10 @@
     
 }
 @media screen and (max-width:576px) {
-    
+    nav, .nav-items{
+        flex-direction: column;
+    }
+    .nav-title{
+        margin-bottom: 3rem;
+    }
 }

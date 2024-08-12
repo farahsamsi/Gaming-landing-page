@@ -6,3 +6,56 @@
     box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
 }
+
+section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+
+
+
+/* navbar related styles starts */
+.nav-title {
+    display: flex;
+    gap: 1.25rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.35rem 0 2.35rem 0;
+}
+
+.nav-items,
+.contact-icons{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.contact-icons{
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.1);
+    padding: 1rem 1.5rem;
+}
+
+.nav-title h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+.nav-items p, a{
+    color: rgb(60, 53, 79);
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+/* navbar related styles ends */
