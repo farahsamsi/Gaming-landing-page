@@ -23,6 +23,13 @@ img {
     width: 100%;
 }
 
+.banner-text h1,
+.gamer-text-container h1 {
+    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 .primary-btn,
 .secondary-btn {
     padding: 1.25rem 2.5rem;
@@ -41,6 +48,16 @@ img {
 
 .text-gray {
     color: rgb(83, 76, 100);
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
 }
 
 
@@ -91,14 +108,12 @@ a {
 
 
 /* banner related styles starts */
+
 .banner-text h1 {
     font-size: 6rem;
     font-weight: 800;
-    background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 
-    margin-bottom: 1.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .banner-text h2 {
@@ -123,7 +138,6 @@ a {
 .banner-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 3.5rem;
 }
 
 .only-for-bg {
@@ -136,7 +150,49 @@ a {
     justify-content: center;
 }
 
-
-
-
 /* banner related styles ends */
+
+/* gamer section related styles starts */
+.background {
+    background-color: rgba(255, 66, 165, 0.03);
+}
+
+.gamer {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    display: flex;
+    gap: 3.25rem;
+}
+
+.gamer-img-container {
+    width: 60%;
+}
+
+.gamer-text-container {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.gamer-text-container h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.gamer-text-container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.gamer-text-container .section-subtitle {
+    text-align: right;
+    line-height: 2rem;
+}
+
+
+
+
+/* gamer section related styles ends */
