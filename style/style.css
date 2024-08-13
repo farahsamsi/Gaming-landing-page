@@ -13,7 +13,8 @@ section {
     padding: 0 .3rem 0 .3rem;
 }
 
-.gamer {
+.gamer,
+.funny-videos {
     margin-bottom: 7.5rem;
 }
 
@@ -28,7 +29,8 @@ img {
 }
 
 .banner-text h1,
-.gamer-text-container h1, .funny-title {
+.gamer-text-container h1,
+.funny-title {
     background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -64,6 +66,7 @@ img {
     font-weight: 400;
     margin-top: 1rem;
     margin-bottom: 2.5rem;
+    color: rgb(83, 76, 100);
 }
 
 /* navbar related styles starts */
@@ -199,9 +202,11 @@ a {
 /* gamer section related styles ends */
 
 /* funny videos section related styles starts */
-.funny-videos .section-title, .funny-videos .section-subtitle{
+.funny-videos .section-title,
+.funny-videos .section-subtitle {
     text-align: center;
 }
+
 .video-img-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -213,10 +218,12 @@ a {
     position: relative;
     display: flex;
 }
+
 .different img {
     filter: brightness(.4);
 }
-.watch{
+
+.watch {
     position: absolute;
     top: 35%;
     left: 33%;
@@ -225,26 +232,63 @@ a {
     align-items: center;
     gap: 1rem;
 }
-.watch>i{
+
+.watch>i {
     font-size: 3rem;
     height: 3rem;
     width: 3rem;
     color: white;
 }
-.watch>p{
+
+.watch>p {
     font-size: 1.25rem;
     color: rgb(255, 66, 165);
     font-weight: 600;
 }
-.video-img{
+
+.video-img {
     margin-bottom: 1.25rem;
 }
-.img-and-text p{
+
+.img-and-text p {
     font-size: 1.25rem;
     line-height: 1.875rem;
     font-weight: 500;
 }
 
-
-
 /* funny videos section related styles ends */
+
+/* play instantly section related styles starts */
+.play-instantly {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: end;
+    align-items: center;
+    gap: 16.5rem;
+    /* gap: 7.5rem; */
+    text-align: right;
+}
+
+.instantly-text-container .section-subtitle {
+    max-width: 353px;
+}
+
+.instantly-img-container {
+    position: relative;
+
+    border: 2px solid red;
+}
+
+.card-img-container {
+    position: absolute;
+    left: -20%;
+    bottom: -20%;
+    max-width: 20rem;
+    
+    border: 2px solid green;
+}
+.card-img-container img{
+    border-radius: 8px;
+}
+
+/* play instantly section related styles ends */
