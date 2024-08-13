@@ -17,6 +17,9 @@ section {
 .funny-videos {
     margin-bottom: 7.5rem;
 }
+.play-instantly{
+    margin-bottom: 9.5rem;
+}
 
 .img-container {
     display: flex;
@@ -290,5 +293,20 @@ a {
 .card-img-container img{
     border-radius: 8px;
 }
-
 /* play instantly section related styles ends */
+
+/* play games online section related styles starts */
+.online-play{
+    justify-items: start;
+    text-align: left;
+}
+.online-text-container{
+    max-width: 353px;
+}
+
+.lower{
+    position: absolute;
+    bottom: -20%;
+    right: -20%;
+}
+/* play games online section related styles ends */
