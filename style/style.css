@@ -13,6 +13,10 @@ section {
     padding: 0 .3rem 0 .3rem;
 }
 
+.gamer {
+    margin-bottom: 7.5rem;
+}
+
 .img-container {
     display: flex;
     justify-content: center;
@@ -24,7 +28,7 @@ img {
 }
 
 .banner-text h1,
-.gamer-text-container h1 {
+.gamer-text-container h1, .funny-title {
     background: linear-gradient(180.00deg, rgb(249, 72, 178), rgb(135, 88, 241));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -58,9 +62,9 @@ img {
 .section-subtitle {
     font-size: 1.25rem;
     font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
 }
-
-
 
 /* navbar related styles starts */
 .nav-title {
@@ -183,7 +187,7 @@ a {
 }
 
 .gamer-text-container h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 700;
 }
 
@@ -192,7 +196,55 @@ a {
     line-height: 2rem;
 }
 
-
-
-
 /* gamer section related styles ends */
+
+/* funny videos section related styles starts */
+.funny-videos .section-title, .funny-videos .section-subtitle{
+    text-align: center;
+}
+.video-img-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1.65rem;
+}
+
+.different {
+    position: relative;
+    display: flex;
+}
+.different img {
+    filter: brightness(.4);
+}
+.watch{
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.watch>i{
+    font-size: 3rem;
+    height: 3rem;
+    width: 3rem;
+    color: white;
+}
+.watch>p{
+    font-size: 1.25rem;
+    color: rgb(255, 66, 165);
+    font-weight: 600;
+}
+.video-img{
+    margin-bottom: 1.25rem;
+}
+.img-and-text p{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 500;
+}
+
+
+
+/* funny videos section related styles ends */
