@@ -18,7 +18,7 @@
         font-size: 3rem;
     }
 
-    .gamer-img-container{
+    .gamer-img-container {
         width: 100%;
     }
 
@@ -27,31 +27,49 @@
         justify-content: center;
         align-items: center;
     }
+
     .gamer-text-container .section-subtitle {
         text-align: center;
     }
+
     .video-img-container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         text-align: center;
     }
+
     .play-instantly {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         gap: 2.5rem;
         text-align: center;
     }
+
     .card-img-container {
         left: -10%;
         bottom: -10%;
         max-width: 15rem;
     }
+    .online-play{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .instantly-img-container-2{
+        max-width: 80%;
+    }
+    .lower {
+        position: absolute;
+        bottom: -10%;
+        right: -10%;
+        max-width: 15rem;
+    }
 }
 
 @media screen and (max-width:576px) {
-    .section-title{
+    .section-title {
         font-size: 2.5rem;
     }
+
     .banner-container {
         display: flex;
         flex-direction: column-reverse;
@@ -60,22 +78,34 @@
     .banner-text {
         padding: 8rem 0 5rem 0;
     }
-    .gamer-text-container{
+
+    .gamer-text-container {
         text-align: center;
     }
+
     .video-img-container {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
-    .instantly-img-container{
+
+    .instantly-img-container {
         width: 85%;
     }
+
     .card-img-container {
         position: absolute;
         left: -10%;
         bottom: -10%;
-        max-width: 10rem;
+        max-width: 7rem;
     }
+    .lower {
+        position: absolute;
+        bottom: -10%;
+        right: -10%;
+        max-width: 7rem;
+    }
+
+    
 }
 
 
@@ -94,5 +124,5 @@
     .secondary-btn {
         padding: 1rem;
     }
-    
+
 }

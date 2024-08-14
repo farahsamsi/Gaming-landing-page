@@ -286,7 +286,7 @@ a {
     position: absolute;
     left: -20%;
     bottom: -20%;
-    max-width: 20rem;
+    max-width: 15rem;
     
     border: 2px solid green;
 }
@@ -305,6 +305,7 @@ a {
 }
 
 .lower{
+    max-width: 15rem;
     position: absolute;
     bottom: -20%;
     right: -20%;
